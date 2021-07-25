@@ -1,4 +1,6 @@
 require 'csv'
+require_relative './lib/expense'
+require_relative './lib/category'
 require_relative './lib/category_file'
 require_relative './lib/file_processor'
 require 'fileutils'

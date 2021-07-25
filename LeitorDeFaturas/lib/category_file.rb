@@ -9,6 +9,9 @@ class CategoryFile
         file.close
     end
 
+    def read_expenses()
+    end
+
     private
     def create_file()
         category_file_path = "./categories/#{category_name}.csv"
